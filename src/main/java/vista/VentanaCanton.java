@@ -34,6 +34,13 @@ public class VentanaCanton extends JFrame implements ActionListener{
     public List<JCheckBox> jCheckBoxList;
     public List<JRadioButton> jRadioButtonList;
     public List<JComboBox> jComboBoxList;
+    
+    public VentanaCanton() {
+        this.setSize(400, 600);
+        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        this.setVisible(true);
+        
+    }
 
     public void iniciarPaneles() {
 
