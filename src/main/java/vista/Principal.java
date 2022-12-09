@@ -16,8 +16,8 @@ public class Principal {
     public static void main(String[] args) {
         
         var ventanaCanton = new VentanaCanton();
-        //var ventanaPais = new VentanaPais();
-        //var ventanaProvincia = new VentanaProvincia();
+        var ventanaPais = new VentanaPais();
+        var ventanaProvincia = new VentanaProvincia();
         
     }
 }
